@@ -102,7 +102,6 @@ if (!customElements.get('image-comparison')) {
       return x;
     }
     slide(x) {
-      console.log(x);
       /* Resize the image: */
       this.img.style.width = x + "px";
       /* Position the slider: */
